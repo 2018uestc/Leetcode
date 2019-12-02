@@ -7,7 +7,7 @@ target，请你在该数组中找出和为目标值的那 两个 整数，并返
 ![image](F:/%E6%9C%89%E9%81%93%E7%AC%94%E8%AE%B0/%E6%9C%89%E9%81%93%E5%9B%BE%E7%89%87%E7%AC%94%E8%AE%B0/1.png)
 解题思路：
 这个题目第一眼一看首先想到的是暴力解决，采用2重循环，类似于双指针的解法，结果是可以通过的，具体代码如下：
-```
+```java
 class Solution{
     public int[] twoSum(int[] nums, int target){
         for(int i=0;i<nums.length-1;i++){
